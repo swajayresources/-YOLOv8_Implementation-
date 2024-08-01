@@ -1,7 +1,7 @@
-# ONNX YOLOv8 Instance Segmentation
+# YOLOv8 Implementation
  Python scripts performing instance segmentation using the YOLOv8 model in ONNX.
 
-![! ONNX YOLOv8 Instance Segmentation](https://github.com/ibaiGorordo/ONNX-YOLOv8-Instance-Segmentation/blob/main/doc/img/detected_objects.jpg)
+![! ONNX YOLOv8 Instance Segmentation](https://github.com/swajayresources/-YOLOv8_Implementation-/blob/main/doc/img/detected_objects.jpg)
 *Original image: https://commons.wikimedia.org/wiki/File:Giraffes_at_west_midlands_safari_park.jpg*
 
 # Important
@@ -14,8 +14,8 @@
 
 # Installation
 ```
-git clone https://github.com/ibaiGorordo/ONNX-YOLOv8-Instance-Segmentation.git
-cd ONNX-YOLOv8-Instance-Segmentation
+git clone https://github.com/swajayresources/-YOLOv8_Implementation-.git
+cd -YOLOv8_Implementation-
 pip install -r requirements.txt
 ```
 ### ONNX Runtime
@@ -27,7 +27,7 @@ Otherwise:
 
 # ONNX model
 You can convert the Pytorch model to ONNX using the following Google Colab notebook:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oDEKz8FUCXtW-REhWy5N__PgTPjt3jm9?usp=sharing)
-- The License of the models is GPL-3.0 license: [License](https://github.com/ultralytics/ultralytics/blob/master/LICENSE)
+
 
 # Original YOLOv8 model
 The original YOLOv8 Instance Segmentation model can be found in this repository: [YOLOv8 Instance Segmentation](https://github.com/ultralytics/ultralytics)
@@ -48,7 +48,7 @@ The original YOLOv8 Instance Segmentation model can be found in this repository:
  ```
  python video_instance_segmentation.py
  ```
- ![!YOLOv8 instance segmentation video](https://github.com/ibaiGorordo/ONNX-YOLOv8-Instance-Segmentation/blob/main/doc/img/video_yolov8_segmentation.gif)
+ ![!YOLOv8 instance segmentation video](https://github.com/swajayresources/-YOLOv8_Implementation-/blob/main/doc/img/video_yolov8_segmentation.gif)
   *Original video: https://youtu.be/-bhSSispEcg*
 
 # References:
